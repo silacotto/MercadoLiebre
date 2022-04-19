@@ -49,6 +49,7 @@ main{
     color: rgba(134, 131, 131, 0.916);
     text-align: center;
     width: 50%;
+    height: 60%;
     }
   
 .copy-header{
@@ -100,6 +101,11 @@ main{
     
     }
 
+.banner{
+    display: flex;
+    width: 100%;
+    
+}
 
 /*main*/
 
@@ -284,16 +290,19 @@ form{
     .descripciones{
        font-size: 10px;
     }
-    .main-header-top-bar i {
-        
+    .main-header-top-bar input{
         position: relative;
-        left: 305px;
-        top: -36px;
+    }
+    .main-header-top-bar  i {
+        
+        position: absolute;
+         right: 0px;
+        top: 5px;
         font-size: 14px;
         opacity: 40%;
-       
-        color: #575a64;
+       color: #4a4d53fd;
             }
+
     .footer i{
         font-size: 12px;
             }
@@ -318,9 +327,9 @@ form{
         }
 
     .main-header-top-bar i {
-        position: relative;
-        top: 50px;
-        right: auto;
+        position: absolute;
+        top: 25px;
+        left: 450px;
         color: #575a64;
        
         }
@@ -474,15 +483,13 @@ form{
             }
     .main-header-top-bar i {
             display: flex;
-            position: relative;
-            left: -90px;
-            font-size: 14px;
+            position: absolute;
+            left: 750px;
+            font-size: 20px;
            
             top: 45px;
             color: #575a64;
-          
-        
-                 }
+            }
     .logo{
         width: 30%;
     }
